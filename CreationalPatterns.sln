@@ -5,11 +5,15 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPattern.Singleton", "CreationalPattern.Singleton", "{900FE8B2-7065-4F0C-97C9-B898E78E30E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalPattern.Singleton", "CreationalPattern.Singleton\CreationalPattern.Singleton.csproj", "{165DC7EC-5BA1-4740-AD0F-5419FC231508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreationalPattern.Singleton", "CreationalPattern.Singleton\CreationalPattern.Singleton.csproj", "{165DC7EC-5BA1-4740-AD0F-5419FC231508}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPattern.Factory", "CreationalPattern.Factory", "{705A4CEF-57FB-4797-BFD3-CAF3505EE8BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalPattern.Factory", "CreationalPattern.Factory\CreationalPattern.Factory.csproj", "{034A0897-D718-417A-AA14-0418682D9A99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreationalPattern.Factory", "CreationalPattern.Factory\CreationalPattern.Factory.csproj", "{034A0897-D718-417A-AA14-0418682D9A99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPattern.Builder", "CreationalPattern.Builder", "{7ADB11BD-9EC3-4753-8C83-8ABBC6806139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalPattern.Builder", "CreationalPattern.Builder\CreationalPattern.Builder.csproj", "{92E6EDA7-D3C9-4B05-B1AD-9BD629F6123E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{034A0897-D718-417A-AA14-0418682D9A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{034A0897-D718-417A-AA14-0418682D9A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{034A0897-D718-417A-AA14-0418682D9A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E6EDA7-D3C9-4B05-B1AD-9BD629F6123E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E6EDA7-D3C9-4B05-B1AD-9BD629F6123E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E6EDA7-D3C9-4B05-B1AD-9BD629F6123E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E6EDA7-D3C9-4B05-B1AD-9BD629F6123E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{165DC7EC-5BA1-4740-AD0F-5419FC231508} = {900FE8B2-7065-4F0C-97C9-B898E78E30E1}
 		{034A0897-D718-417A-AA14-0418682D9A99} = {705A4CEF-57FB-4797-BFD3-CAF3505EE8BF}
+		{92E6EDA7-D3C9-4B05-B1AD-9BD629F6123E} = {7ADB11BD-9EC3-4753-8C83-8ABBC6806139}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8728613F-2BB2-466B-A05A-3A494ADC2FBA}
