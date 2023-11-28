@@ -1,4 +1,4 @@
-## CreationalPatterns
+## Creational Patterns
 
 in this repo, you can find explanation and implementation of various creational design patterns.
 
